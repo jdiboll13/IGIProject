@@ -6,7 +6,8 @@ namespace IGIProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var Maverick = new Pilot();
+            
         }
     }
 }

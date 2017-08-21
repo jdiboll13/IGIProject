@@ -7,6 +7,7 @@ namespace IGIProject
         public int SerialNum { get; set; }
         public string Name { get; set; }
         public string Rank { get; set; }
+        public string Weapon { get; set; }
 
         public void Eat()
         {
@@ -21,6 +22,6 @@ namespace IGIProject
             Console.WriteLine("Hup, Two, Three, Four.");
         }
         public abstract void Speak();
-        
+
     }
 }
