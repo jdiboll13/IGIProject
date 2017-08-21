@@ -4,9 +4,11 @@ namespace IGIProject
 {
     public class Pilot : Solider, IPilot
     {
-        public Pilot()
+        public Pilot(string name, string rank, int serialNum)
         {
-            
+            this.Name = name;
+            this.Rank = rank;
+            this.SerialNum = serialNum;
         }
 
         public string Aircraft { get; set; }
