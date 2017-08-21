@@ -13,6 +13,9 @@ namespace IGIProject
             var ATeam = new List<Solider>();
             ATeam.Add(Maverick);
             ATeam.Add(Face); 
+
+            Console.WriteLine(value: $"Pilot: {Maverick.Name}. Rank: {Maverick.Rank}. Serial#: {Maverick.SerialNum}.");
+            Console.WriteLine($"TankDriver: {Face.Name}. Rank: {Face.Rank}. Serial#: {Face.SerialNum}.");
         }
     }
 }
