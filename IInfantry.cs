@@ -4,7 +4,9 @@ namespace IGIProject
     {
         string Weapon { get; set; }
         void Ammo();
+        string RuckSack { get; set; }
         void WeightCarried();
+        string FlakVest { get; set; }
         void ArmorWearing();
     }
 }
